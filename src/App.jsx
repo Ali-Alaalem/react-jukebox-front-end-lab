@@ -13,6 +13,7 @@ const App = () => {
 
   const updateSelected = (track) => {
     setSelected(track);
+    setIsFormOpen(false);
   };
 
   const handleFormView = (track) => {
